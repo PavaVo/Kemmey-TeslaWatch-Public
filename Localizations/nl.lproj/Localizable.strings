@@ -5,7 +5,7 @@
   Created by Kim Hansen on 27/05/2020.
   Copyright © 2021 Kim Hansen. All rights reserved.
   Localized by Don Hellwich - hellwich@hotmail.com
-  Updated by Paul van Voorst - PvanVoorst@gmail.com (16-02-2024)
+  Updated by Paul van Voorst - PvanVoorst@gmail.com (11-11-2024)
  
   A note to translators - add a comment "//No Machine Translation" for entries that should use the key as translation value.
   This will prevent machine translation from adding an automatic translation.
@@ -159,9 +159,9 @@
 "Disabled Sentry mode" = "Sentrymode uitgeschakeld";
 "Activating Homelink" = "Homelink activeren";
 "Closing windows" = "Ramen sluiten";
-"Venting windows" = "Ramen op ventilatiestand";
+"Venting windows" = "Ramen ventileren";
 "Closing sunroof" = "Dakraam sluiten";
-"Venting sunroof" = "Dakraam op ventilatiestand";
+"Venting sunroof" = "Dakraam ventileren";
 "Enabling keyless drive" = "Sleutelloos rijden inschakelen";
 "Setting seat heater" = "Instellen stoel verwarming";
 "Don't remind me again today" = "Herinner me vandaag niet opnieuw";
@@ -281,14 +281,14 @@
 "Sentry Active" = "Sentry actief";
 "Outside Temp C" = "Buiten temp C";
 "Climate Active" = "Airco is actief";
-"Range Rated KM" = "Afstand Rated KM";
+"Range Rated KM" = "Nominale Afstand KM";
 "Charge to ${limit}%" = "Laad tot ${limit}%";
 "Charge Limit" = "Oplaad limiet";
 "${displayName} can’t be higher than ${maximumValue}." = "${displayName} mag niet hoger zijn dan ${maximumValue}.";
 "${displayName} can’t be negative." = "${displayName} kan niet negatief zijn.";
 "Is Charging" = "Is aan het opladen";
 "Inside Temp C" = "Interieur temp C";
-"Range Rated M" = "Bereik waardering M"; //does this need translation to KiloMeters (KM)? - no KM variant is in line 284 ;-D
+"Range Rated M" = "Nominale Afstand M";
 "Signal Homelink" = "Signaleer Homelink";
 "Sharing to vehicle" = "Delen naar auto";
 "Send Navigation Destination" = "Deel navigatiebestemming";
@@ -377,7 +377,7 @@
 "You can change the formula used for calculating charging current from advanced settings." = "Je kunt de formule die wordt gebruikt voor het berekenen van de laadstroom wijzigen via geavanceerde instellingen.";
 "Enable background updates and allow wake in background, but limit wake interval to the hours you yourself are awake. Set the update interval to every hour. This will allow the vehicle to deep sleep when you do. Resulting drain will be approx 1,2% per 24 hours." = "Schakel achtergrondupdates in en sta wekken op de achtergrond toe, maar beperk de wekinterval tot de uren dat jezelf wakker bent. Stel het update-interval in op elk uur. Hierdoor kan het voertuig diep slapen als jij dat doet. De resulterende afvoer zal ongeveer 1,2% per 24 uur zijn.";
 "Tap either of the temperature views to show the temperature controls." = "Tik op een van de temperatuurweergaven om de regelaars weer te geven.";
-"If your vehicle has a heated steering wheel, you can activate it from the seat heating control." = "Als uw auto stuurverwarminr heeft, kunt u dit activeren via die optie.";
+"If your vehicle has a heated steering wheel, you can activate it from the seat heating control." = "Als jouw auto stuurverwarming heeft, kan je dit activeren via die optie.";
 "Switch battery view" = "Wisselen van accu-weergave";
 "Charger current calculation" = "Berekening laadstroom";
 "Minimize phantom drain" = "Minimaliseer fantoom ontlading";
@@ -397,9 +397,9 @@
 "Camp mode active" = "Kampeermode actief";
 "Symbols" = "symbolen";
 "Hints" = "Tips:";
-"R_range" = "R"; // _R_ated //No Machine Translation
-"I_range" = "I"; // _I_deal //No Machine Translation
-"E_range" = "E"; // _E_stimated //No Machine Translation
+"R_range" = "N"; // _R_ated -> _N_ominaal
+"I_range" = "I"; // _I_deal -> _I_deaal //No Machine Translation
+"E_range" = "G"; // _E_stimated -> _G_eschat
 "Is Charger Connected" = "Is oplader aangesloten";
 "While travel mode is active, no background activity will happen. Widgets and complications will not update. Reminders will not be sent. Even while the app is open, the vehicle will not be woken up, unless you manually tap the refresh vehicle data button." = "Zolang de reismode actief is, vindt er geen achtergrond activiteit plaats. Widgets en complicaties worden niet bijgewerkt. Herinneringen worden niet verzonden. Zelfs als de app is geopend, wordt het voertuig niet gewekt, tenzij u handmatig op de knop voertuiggegevens vernieuwen tikt.";
 "Enable travel mode" = "Reismode inschakelen";
@@ -418,7 +418,7 @@
 "Enabling background updates allows the app to show up-to-date information on widgets and complications and allows for sending notifications when vehicle is not plugged in or is left open or unlocked. If neither of these features are enabled or in use or vehicle has less than 20% charge remaining, background updates will never happen. It is highly recommended to leave these settings at the defaults if you plug-in your car at night." = "Door achtergrondupdates in te schakelen, kan de app actuele informatie over widgets en complicaties tonen en kunnen meldingen worden verzonden wanneer het voertuig niet is aangesloten, geopend of ontgrendeld blijft. Als geen van deze functies is ingeschakeld of in gebruik is of als het voertuig minder dan 20% opgeladen is, zullen er nooit updates op de achtergrond plaatsvinden. Het wordt ten zeerste aanbevolen om deze instellingen op de standaardwaarden te laten staan als u uw auto 's nachts aansluit.";
 "Setting charging current" = "Laadstroom instellen";
 "Set charging current:" = "Stel laadstroom in:";
-"Amperes" = "Ampère"; //Machine translated
+"Amperes" = "Ampère";
 "Set Charging Current" = "Stel laadstroom in";
 "Sets the charging current in Ampere" = "Stelt de laadstroom in Ampère in";
 "How many Ampere?" = "Hoeveel Ampère?";
@@ -434,7 +434,7 @@
 "Trim" = "Trimmen";
 "Just to confirm, you wanted ‘${vehicle}’?" = "Ter bevestiging: u wilde '${vehicle}'?";
 "Get Active Vehicle" = "Overzicht actieve voertuig";
-"Vin" = "VIN";
+"Vin" = "VIN"; //Diesel is no EV enthousiast ;-)
 "Model" = "Model"; //No Machine Translation
 "Vehicles" = "Voertuigen";
 "There are ${count} options matching ‘${vehicle}’." = "Er zijn ${count} opties die overeenkomen met '${vehicle}'.";
@@ -529,42 +529,42 @@
 "Show logs" = "Toon logboeken";
 "Hide logs" = "Logboeken verbergen";
 "Logs" = "Logboeken";
-"Which seats?" = "Welke stoelen?"; //Machine translated
-"Tire pressure" = "Bandenspanning"; //Machine translated
+"Which seats?" = "Welke stoelen?";
+"Tire pressure" = "Bandenspanning";
 "bar" = "bar"; //No Machine Translation
 "psi" = "psi"; //No Machine Translation
-"Use PSI as pressure unit instead of BAR" = "Gebruik PSI als drukeenheid in plaats van BAR"; //Machine translated
-"When showing tire pressure, use PSI as unit of measure instead of the default of BAR." = "Gebruik bij het weergeven van de bandenspanning PSI als maateenheid in plaats van de standaard BAR."; //Machine translated
-"Tire pressure rear right" = "Bandenspanning rechts achter"; //Machine translated
-"Raw JSON" = "onbewerkte JSON"; //Machine translated
-"Tire pressure front left" = "Bandenspanning linksvoor"; //Machine translated
-"Tire pressure front right" = "Bandenspanning voor rechts"; //Machine translated
-"Tire pressure rear left" = "Bandenspanning achter links"; //Machine translated
-"Activate" = "Activeren"; //Machine translated
-"Remote start active" = "Start op afstand actief"; //Machine translated
-"Charge port unlocked" = "Oplaadpoort ontgrendeld"; //Machine translated
+"Use PSI as pressure unit instead of BAR" = "Gebruik PSI als drukeenheid in plaats van BAR";
+"When showing tire pressure, use PSI as unit of measure instead of the default of BAR." = "Gebruik bij het weergeven van de bandenspanning PSI als maateenheid in plaats van de standaard BAR.";
+"Tire pressure rear right" = "Bandenspanning rechts achter";
+"Raw JSON" = "onbewerkte JSON";
+"Tire pressure front left" = "Bandenspanning linksvoor";
+"Tire pressure front right" = "Bandenspanning rechtsvoor";
+"Tire pressure rear left" = "Bandenspanning linksachter";
+"Activate" = "Activeren";
+"Remote start active" = "Start op afstand actief";
+"Charge port unlocked" = "Laadpoort ontgrendeld";
 "Details" = "Details"; //No Machine Translation
-"Odometer" = "Kilometerteller"; //Machine translated
+"Odometer" = "Kilometerteller";
 "Software" = "Software"; //No Machine Translation
-"Apple Watch usage" = "Apple Watch-gebruik"; //Machine translated
-"In order to activate shortcuts from Apple Watch independently, please ensure activated shortcuts are configured to sync to watch from the Apple Shortcuts app on this device." = "Om snelkoppelingen van Apple Watch onafhankelijk te activeren, moet u ervoor zorgen dat geactiveerde snelkoppelingen zijn geconfigureerd om te synchroniseren om te kijken vanuit de Apple Shortcuts-app op dit apparaat."; //Machine translated
-"Siri actions on Apple Watch" = "Siri-acties op Apple Watch"; //Machine translated
-"Keep mode active" = "Houd modus actief"; //Machine translated
-"Keep mode" = "Modus behouden"; //Machine translated
-"Turn on dog mode?" = "Hondenmodus inschakelen?"; //Machine translated
-"Really turn off dog mode?" = "Hondenmodus echt uitschakelen?"; //Machine translated
-"Deactivate dog mode" = "Hondenmodus deactiveren"; //Machine translated
-"Activate dog mode" = "Hondenmodus activeren"; //Machine translated
-"Activate Keep mode" = "Activeer de Keep-modus"; //Machine translated
-"Activate off mode" = "Uit-modus activeren"; //Machine translated
-"Activate Dog mode" = "Activeer de hondenmodus"; //Machine translated
-"Activate Camp mode" = "Camp-modus activeren"; //Machine translated
-"Set Climate Keeper" = "Klimaatbewaarder instellen"; //Machine translated
-"Activate ${climateKeeperMode} mode" = "Activeer ${climateKeeperMode}-modus"; //Machine translated
-"Keep" = "Houden"; //Machine translated
-"off" = "Uit"; //Machine translated
-"Dog" = "Hond"; //Machine translated
-"Climate Keeper Mode" = "Klimaat Keeper-modus"; //Machine translated
+"Apple Watch usage" = "Apple Watch-gebruik";
+"In order to activate shortcuts from Apple Watch independently, please ensure activated shortcuts are configured to sync to watch from the Apple Shortcuts app on this device." = "Om snelkoppelingen vanaf de Apple Watch onafhankelijk te kunnen activeren, moet u ervoor zorgen dat deze zijn geconfigureerd om te synchroniseren met de Watch vanuit de Apple Opdrachten-app op dit apparaat.";
+"Siri actions on Apple Watch" = "Siri-acties op Apple Watch";
+"Keep mode active" = "Houd modus actief";
+"Keep mode" = "Modus behouden";
+"Turn on dog mode?" = "Hondenmodus inschakelen?";
+"Really turn off dog mode?" = "Hondenmodus echt uitschakelen?";
+"Deactivate dog mode" = "Hondenmodus deactiveren";
+"Activate dog mode" = "Hondenmodus activeren";
+"Activate Keep mode" = "Activeer Airco vergrendeling";
+"Activate off mode" = "De-activeer Airco vergrendeling";
+"Activate Dog mode" = "Activeer de hondenmodus";
+"Activate Camp mode" = "Campeer-modus activeren";
+"Set Climate Keeper" = "Instellen Airco vergrendeling";
+"Activate ${climateKeeperMode} mode" = "Activeer ${climateKeeperMode}-modus";
+"Keep" = "Houden";
+"off" = "Uit";
+"Dog" = "Hond";
+"Climate Keeper Mode" = "Airco vergrendel-modus";
 "Camp" = "Kamp"; //Machine translated
 "Climate Keeper Mode Intent" = "Intentie klimaatbewaardermodus"; //Machine translated
 "Activates the selected climate keeper mode" = "Activeert de geselecteerde klimaatbeheermodus"; //Machine translated
